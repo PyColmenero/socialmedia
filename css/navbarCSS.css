@@ -1,0 +1,98 @@
+/* ------- NAVBAR ------- */
+#pvs{
+    height: 7vh;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    z-index: 10;
+    transition: 0;
+    height: 7vh;
+}
+    #navBarMain{
+        display: flex;
+    }
+        #divNB1{
+            width: 10%;
+            background: rgb(255, 255, 255);
+            display: none;
+        }   
+            .hiddenHam{
+                visibility: hidden;
+            }
+            .hiddenNoHam{
+                visibility: visible;
+            }
+            #iconDiv{
+                margin: auto;
+                width: 5vh;
+                height: 5vh;
+            }
+                #iconDiv img{
+                    width: 5vh;
+                    
+                }
+
+        #divNB2{
+            width: 40%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+        }    
+            #divNB2 p{
+                text-align: center;
+                margin: auto;
+            }
+
+        #divNB3{
+            width: 60%;
+            background: rgb(100, 69, 69);
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }     
+            .buttonDiv{
+                width: 100%;
+                background: rgb(117, 0, 0);
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+            }
+            .buttonDiv:hover{
+                background: rgb(146, 0, 0);
+                
+            }
+                .textButtonNB{
+                    text-align: center;
+                    margin: auto;
+                    display: flex;
+                    
+                }
+                    #profileB{
+                        font-size: 15px;
+                    }
+                    #notification{
+                        border-radius: 999px;
+                        background: red;
+                        color: white;
+                        font-size: 15px;
+                    }
+
+
+@media screen and (max-aspect-ratio: 1/1) {
+
+    #divNB1{
+        display: flex;
+        width: 20%;
+    }
+    #divNB2{
+        display: none;
+    }
+    #divNB3{
+        width: 80%;
+    }
+}

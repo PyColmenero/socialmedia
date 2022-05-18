@@ -1,0 +1,284 @@
+/* ------- CONTENT ------- */
+#content{
+    text-align: center;
+    /*overflow: scroll;*/
+    background: rgb(18, 18, 18);
+    color: white;
+    width: 80vw;
+    margin-left: 20vw;
+}
+    /*#home{}*/
+    #homeSec{
+        background: rgb(18, 18, 18);
+        overflow:hidden;
+        border:2px solid #121212;
+    }
+        #sectionYouAre{
+            padding: 2% 0 1% 0;
+            border-bottom: 1px solid rgb(56, 56, 56);
+            width: 90%;
+            margin: auto;
+        }
+        #optionsComment{
+            display:flex;
+            justify-content: space-around;
+        }
+            #orderOptionsC{
+                width:30%;
+            }
+            #typesOptionsC{
+                width:30%;
+            }
+            #nextOptionsC{
+                width:30%;
+            }
+                #leftArrowNO, #rightArrowNO{
+                    padding: 0 5%;
+                }
+                #leftArrowNO:hover, #rightArrowNO:hover{
+                    background: #005e7a;
+                    border-radius:10px;
+                }
+                
+            #orderOptionsC:hover{
+                background: #002530;
+                border-radius:10px;
+            }
+        #contentDataBase{
+            overflow: scroll;
+            width: 90%;
+            margin: 5% auto;
+            margin-top: 2%;
+            padding-bottom: 15%;
+            /*border-radius: 20px;*/
+        }
+        #strechHome{
+            padding-bottom: 10%;
+        }
+            .commentDB{
+                background: rgb(39, 39, 39);
+                border-top: 1px solid rgb(105, 105, 105);
+                border-bottom: 1px solid rgb(105, 105, 105);
+                border-radius: 1px;
+                width: 70%;
+                margin: auto;
+                margin-bottom: 3vh;
+            }
+                .information{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 90%;
+                    margin: auto;
+                    padding: 2% 0 1% 0;
+                    border-bottom: 1px solid black;
+                    
+                }
+                    .tittle{
+                        padding-left: 1%;
+                        text-align: left;
+                        width:70%;
+                    }
+                    .typeSec{
+                        padding-right: 1%;
+                        text-align: right;
+                        
+                    }
+                .juiceText{
+                    width: 90%;
+                    margin: auto;
+                    text-align: left;
+                    padding: 2% 5%;
+                    overflow:scroll;
+                }
+                .buttonsAndInfo{
+                    display: flex;
+                }
+                    .idShowDiv{
+                        width:20%;
+                        margin: 4% 2% 1% 2%;
+                        text-align: left;
+                        vertical-align: -10px;
+                        display: flex;
+                        align-self: flex-end;
+                    }
+                        .pIDOwner{
+                            
+                            color: grey;
+                            font-size: 12px;
+                        }
+                    .contactAnom{
+                        width:80%;
+                        display: flex;
+                        justify-content: flex-end;
+                        margin: 4% 2% 2% 2%;
+                        
+                        /*justify-content: center;*/
+                    }
+                        .textContact{
+                            text-align: center;
+                            border-radius: 999px;
+                            border: 1px solid black;
+                            width: 20%;
+                            margin-left:3%;
+                            background: rgb(220, 85, 85);
+                        }
+                        .textReply, .textShowReply, .textShowReplyNULL{
+                            text-align: center;
+                            border-radius: 1px;
+                            color:black;
+                            width: 25%;
+                            margin-left:3%;
+                            background: #ffcbba;
+                        }
+                        .textShowReply, .textShowReplyNULL{
+                            text-align: center;
+                            border-radius: 1px;
+                            width: 40%;
+                            color:black;
+                            margin-left:3%;
+                            background: #ff3d3d;
+                        }
+                        .textReply:hover{ background: #e6b9aa; }
+                        .textShowReply:hover{ background: #e33434; }
+                        #likeIcon{
+                        }
+                            #svgLike{
+                                
+                            }
+            .replyReplyDiv{
+                margin: 2% 0 0 0;
+                padding: 2% 1% 2% 2%;
+            }
+            .replyDiv{
+                margin: 2% 0 0 0;
+                padding: 2% 1% 2% 15%;
+            }
+            .loadReplysHere{
+                background-color: rgb(60, 60, 60);
+                /* margin: 0;
+                padding: 1% 0 1% 0; */
+            }
+                .contentReply{
+                    border-top: 3px solid rgb(39, 39, 39);
+                    padding: 1% 0 1% 5%;
+                    /* border-radius: 2px;
+                    border: 1px solid black;
+                    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9); */
+                }
+                    .divReplyClose{
+                        display:flex;
+                        justify-content: space-between;
+                        flex-grow: 2;
+                        margin-bottom:1%;
+                        
+                        flex: 1 0 20px;
+                    }
+                        .replyIdDiv{
+                            width: 70%;
+                            display: flex;
+                            flex-wrap: wrap;
+                        }
+                            .divJuiceText{
+                                width: 100%;
+                            }
+                                .pReplyL{
+                                    text-align: left;
+                                    font-size: 15px;
+                                    margin-bottom:1%;
+                                    color:white;
+                                }
+                            .bottomID{
+                                display: flex;
+                                width: 100%;
+                            }
+                                .idPReply{
+                                    text-align: left;
+                                    color: grey;
+                                    font-size: 11px;
+                                    align-self: flex-end;
+                                }
+                        .buttonsReply{
+                            margin-bottom:1%;
+                            width:29%;
+                            margin-right:3%;
+                        }
+                    .divWriteClose{
+                        display:flex;
+                        justify-content: space-between;
+                        margin-bottom:1%;
+                    }
+                        .closeButton, .closeButtonReply{
+                            margin-right:4%;
+                            width:3%;
+                        }
+                        .closeButton:hover{ background:rgb(89, 89, 89); }
+                        .closeButtonReply:hover{ background:rgb(89, 89, 89); }
+                        .pWriteR{
+                            text-align: left;
+                            font-size: 15px;
+                            margin-bottom:1%;
+                            color:#ccc;
+                        }
+                        
+                .contentReply textarea{
+                    width: 90%;
+                    margin:auto;
+                    border-radius: 4px;
+                    padding:2%;
+                    
+                }
+                .sendReplyDiv{
+                    display: flex;
+                    justify-content: flex-end;
+                    margin: 2%;
+                }
+                .sendReplyP, .sendReplReplyP{
+                    text-align: center;
+                    width: 30%;
+                    margin-left:3%;
+                    /*background: rgb(220, 85, 85);*/
+                    
+                        border-radius: 1px;
+                        color:black;
+                        background: rgb(255, 198, 138);
+                }
+                .buttonReplyReply{
+                    text-align: center;
+                    border-radius: 2px;
+                    display:inline-block;
+                    width:90%;
+                    background: rgb(255, 61, 61);
+                    /*margin-right:5%;*/
+                    margin: 2% auto;
+                    color: black;
+                }
+                #showRRR, #hideR{
+                    background: rgb(255, 203, 186);
+                }
+                #showRRR:hover, #hideR:hover{
+                    background: rgb(217, 187, 172);
+                }
+                .sendReplyP:hover{
+                    background: #D9BBAC;
+                    
+                }
+                .buttonReplyReply:hover{
+                    background: rgb(194, 62, 61);
+                    
+                }
+                .sendReplReplyP:hover{
+                    background: rgb(226, 132, 132);
+                }
+
+@media screen and (max-aspect-ratio: 1/1) {
+
+    #content{
+        width: 100vw;
+        margin-left: 0;
+    }
+
+
+    .commentDB{
+        width: 100%;
+    }
+}

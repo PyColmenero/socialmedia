@@ -1,0 +1,61 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+a{
+    color:white !important;    
+}
+#brandP{
+    color: black;
+}
+html, body{
+    background: rgb(18, 18, 18);
+}
+
+#loadingGIF{
+    margin-top:5%;
+} 
+#loadingGIF p{
+    color:white;
+    text-align:center;
+} 
+
+#blackInAside{
+    display:none;
+    position: fixed;
+    z-index: 8;
+    background:black;
+    opacity:0;
+}
+#noComm{
+    margin: 10% 0 0 0;
+}
+
+#politicsCB{
+    margin-left:3%;
+}
+
+/* ------- ASIDE CONTENT ------- */
+#asideContent{
+    position: absolute;
+    transition: left 1000 linear;
+    height: 93vh;
+}
+
+#blackInAside{
+    width: 100vw;
+    height: 100vh;
+}

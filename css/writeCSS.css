@@ -1,0 +1,121 @@
+#writeSec{
+    border: 1px solid rgb(30, 30, 30);
+    width: 80vw;
+    flex-wrap: center;
+    padding: 0 0 2% 0;
+    height: 90vh;
+    margin-left: 20vw;
+    
+    display: flex;
+    align-items: center;
+
+    text-align: center;
+}
+#writeSec p, #writeSec label{
+    color: white;
+}
+    #writeDiv{
+        margin: auto;
+        background: rgb(35, 35, 35);
+        border-radius: 10px;
+        border: 1px solid rgb(0, 0, 0);;
+        padding: 3%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+        
+        width: 55%;
+        margin: auto;
+    }
+    #divUpWrite{
+        width: 95%;
+        margin: auto;
+        border-radius: 10px 10px 0 0 ;
+        background: rgb(25, 25, 25);
+        padding: 3% 0;
+    }
+    #divMWrite{
+        width: 95%;
+        margin: auto;
+        background: rgb(25, 25, 25);
+        padding: 3% 0;
+    }
+        #selectSub{
+            width:85%;
+            padding: 1%;
+            border-radius: 5px;
+        }
+    #divDownWrite{
+        width: 95%;
+        margin: auto;
+        background: rgb(25, 25, 25);
+        padding: 3% 0;
+    }
+        #divDownWrite textarea{
+            width: 90%;
+            border-radius: 4px;
+            margin-top:5%;
+        }
+        #writeDiv input{
+            padding: 1%;
+            border-radius: 5px;
+            width:80%;
+        }
+        #showPass, #showPass1, #showPass2{
+            margin-left:2%;
+        }
+        #buttonWri{
+            width: 90%;
+        }
+    #divButtonWrite{
+        width: 100%;
+        margin: auto;
+        border-radius: 0 0 10px 10px;
+        border-top: 1px solid black;
+        background: rgb(25, 25, 25);
+        padding: 3% 0;
+    }
+        #writeDiv p:first-child{
+            padding: 3%;
+        }
+        #writeDiv h4{
+            border-bottom: 1px solid white
+        }
+        .pInWrite{
+            /*padding: 0 !important;
+            margin: 0 !important;*/
+            font-size:24px;
+        }
+        #textAreaW{
+            padding:3%;
+            height: 20vh;
+        }
+        #inputTittleW{
+            width:90%;
+        }
+        #flexFormWrite{
+            display: flex;
+            background: #191919; 
+        }
+
+@media screen and (max-aspect-ratio: 1/1) {
+
+    #writeSec{
+        width: 100vw;
+        height: 90vh;
+        margin-left: 0;
+
+    }
+    #writeDiv{
+        width: 90%;
+        box-sizing: border-box;
+        border-radius: 0px;
+
+        margin: 0;
+
+        margin: auto;
+    }
+    #flexFormWrite{
+        display: block;
+    }
+
+}

@@ -1,0 +1,117 @@
+/* ------- ASIDE ------- */
+#asideLeft{
+    border-right: 1px solid black;
+    background: black;
+    position: fixed;
+
+    transition: left linear 0.25s, right linear 0.25s;
+
+    z-index: 9;
+    width: 20vw;
+    height: 93vh;
+    
+}
+    #miAccount{
+        width: 100%;
+        background: rgb(126, 0, 0);
+        padding: 5% 0;
+        height: 25vh;
+
+        box-sizing: border-box;
+    }
+        #photoAside{
+            padding: 10% 25% 5% 25%;
+        }
+            #photoAside img{border-radius: 10px;}
+            #svgUser{
+                fill: white;
+                width: 12vh;
+                margin: auto;
+                display: block;
+            }
+        #accountInfo{
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            padding-bottom: 2%;
+            font-weight: 600;
+            border-bottom: 1px solid rgb(189, 0, 0);
+        }
+            #username{
+                color:white;
+            }
+    #typesAside{
+        border: 1px solid black;
+        display: flex;
+        background: #F9E9E9;
+        height: 68vh;
+    }
+        #containerTypes1{
+            width: 100%;
+            display: flex;
+            padding: 5%;
+            
+        }
+        #containerTypes{
+            border: 1px solid black;
+            background: rgb(24, 24, 24);
+            box-shadow: 0 0 5px black;
+            border-radius: 10px;
+            width: 100%
+        }
+            #typesText{
+                padding: 4% 5%;
+                margin: auto;
+                margin-bottom: 5%;
+                border-bottom: 1px solid #696969;
+                width: 80%;
+            }
+            #typesDiv{
+                width: 80%;
+                margin-top:10%;
+                margin-left: 20%;
+            }
+            #unSortedL{
+                color:white;
+            }
+                .typeButton{
+                    padding: 2% 0;font-family: 'Montserrat', sans-serif !important;
+                    background: rgb(24, 24, 24);
+                }
+                .selectBAside{
+                    background: #540404;
+                }
+                .typeButton p, #allTypesButton p, #typesText p{
+                    font-family:'Roboto', sans-serif !important;
+                    color: #e6e6e6;
+                }
+                #allTypesButton{
+                    padding: 2% 0;
+                }
+                .typeButton:hover, #allTypesButton:hover{
+                    background: #540404;
+                }
+                .allTypesButton:hover{
+                    background: rgb(226, 132, 132);
+                }
+                
+@media screen and (max-aspect-ratio: 1/1) {
+
+    /* ------- ASIDE ------- */
+    #asideLeft{
+        transition: left linear 0.5s, right linear 0.5s;
+        width: 50vw;
+    }
+
+    #miAccount{
+        padding: 2% 0;
+        height: 25vh;
+    }
+
+    #svgUser{
+        font-size: 10px;
+        width: 75%;
+        margin: auto;
+        display: block;
+    }
+}

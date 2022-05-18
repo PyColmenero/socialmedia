@@ -1,0 +1,161 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+a{
+    color:white !important;    
+}
+html{
+    background: rgb(18, 18, 18);
+}
+
+body{
+    background: rgb(18, 18, 18);
+}
+/* ------- NAVBAR ------- */
+nav{
+    position: fixed;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    z-index: 9;
+    transition: 0;
+}
+    #navBarMain{
+        display: flex;
+    }
+        #divNB1{
+            width: 10%;
+            background: rgb(255, 255, 255);
+            display: flex;
+            
+        }   
+            .hiddenHam{
+                visibility: hidden;
+            }
+            .hiddenNoHam{
+                visibility: visible;
+            }
+            #iconDiv{
+                margin: auto;
+            }
+
+        #divNB2{
+            width: 30%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+        }    
+            #divNB2 p{
+                text-align: center;
+                margin: auto;
+            }
+
+        #divNB3{
+            width: 60%;
+            background: rgb(100, 69, 69);
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }     
+            .buttonDiv{
+                width: 100%;
+                background: rgb(117, 0, 0);
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+            }
+            .buttonDiv:hover{
+                background: rgb(146, 0, 0);
+                
+            }
+                .textButtonNB{
+                    text-align: center;
+                    margin: auto;
+                }
+                
+
+#writeSec{
+    border: 1px solid rgb(18, 18, 18);
+    margin:auto;
+    padding: 0 0 2% 0;
+    text-align:center;
+    color:white;
+}
+    #writeDiv{
+        margin: auto;
+        background: rgb(35, 35, 35);
+        border-radius: 10px;
+        border: 1px solid rgb(0, 0, 0);;
+        padding: 3%;
+    }
+    #divUpWrite{
+        width: 90%;
+        margin: auto;
+        border-radius: 10px 10px 0 0 ;
+        background: rgb(25, 25, 25);
+        padding: 3% 0;
+    }
+    #divMWrite{
+        width: 90%;
+        margin: auto;
+        background: rgb(25, 25, 25);
+        padding: 3% 0;
+    }
+    #divDownWrite{
+        width: 90%;
+        margin: auto;
+        background: rgb(25, 25, 25);
+        padding: 3% 0;
+    }
+
+        #writeDiv input{
+            padding: 1%;
+            border-radius: 5px;
+        }
+        #buttonWri{
+            width: 90%;
+            margin:2% 0;
+        }
+    #divButtonWrite{
+        width: 90%;
+        margin: auto;
+        border-radius: 0 0 10px 10px;
+        border-top: 1px solid black;
+        background: rgb(25, 25, 25);
+        padding: 3% 0;
+    }
+        #writeDiv p:first-child{
+            padding: 5%;
+        }
+        #writeDiv h3{
+            border-bottom: 1px solid white
+        }
+        .pInWrite{
+            padding: 0 !important;
+            margin: 0 !important;
+            margin:5% 0 2% 0  !important;
+        }
+        #ppWrite{
+            padding: 0 !important;
+            margin: 0 !important;
+            margin:5% 0 2% 0  !important;
+        }
+        #example_radio2{
+            margin-left:5%;
+        }
